@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[WebComponents.org]]></title>
+        <description><![CDATA[A place to discuss and evolve Web Component best-practices]]></description>
+        <link>http://webcomponents.org</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 17 Jul 2015 18:14:47 GMT</lastBuildDate>
+        <atom:link href="http://webcomponents.org/articles.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 17 Jul 2015 18:12:45 GMT</pubDate>
+        <item>
+            <title><![CDATA[</Q2-2015>]]></title>
+            <description><![CDATA[<p>In the <a href="/articles/end-of-first-quarter-2015">past article</a>, we saw some numbers from the first quarter. That was nice because we could see exactly what was happening on each channel: <a href="/">Site</a>, <a href="https://github.com/webcomponents/webcomponents.github.io">GitHub</a>, and <a href="https://twitter.com/web_components/">Twitter</a>.</p>
+<p>Today, we&#39;re not only analyzing what happened from <em>April 1, 2015</em> to <em>June 30, 2015</em>, we&#39;ll also compare those numbers with Q1 to check what we did right and what we can improve.</p>
+<!-- Excerpt -->
+<h2 id="site">Site</h2>
+<h3 id="how-many-people-accessed-this-">How many people accessed this?</h3>
+<ul>
+<li>Users: 89,585 <small class="negative">⬇0.42%</small></li>
+<li>Sessions: 129,518 <small class="negative">⬇2.77%</small></li>
+<li>Pageviews: 233,491 <small class="negative">⬇2.36%</small></li>
+</ul>
+<p>Compared to the last quarter we had a slightly decrease in the number of visitors. It&#39;s nothing to worry about, specially if you see the raw numbers.</p>
+<p>Our goal for next quarter is to hit 100,000 unique users. Pretty ambitious, huh?</p>
+<h3 id="where-did-they-visited-from-">Where did they visited from?</h3>
+<ol>
+<li>United States: 34,699 (26.79%) <small class="negative">⬇2.54%</small></li>
+<li>India: 7,056 (5.45%) <small class="positive">⬆20.95%</small></li>
+<li>Germany: 7,038 (5.43%) <small class="positive">⬆0.49%</small></li>
+<li>United Kingdom: 6,730 (5.20%) <small class="negative">⬇9.48%</small></li>
+<li>Brazil: 5,758 (4.45%) <small class="positive">⬆24.34%</small></li>
+</ol>
+<p>By looking at our visitors we notice that UK dropped from 2nd to the 4th position. At the same time, emerging countries like India and Brazil had an impressive increase of interest.</p>
+<p>We stimulate diversity and we&#39;ll keep doing that.</p>
+<h3 id="what-did-they-like-to-see-">What did they like to see?</h3>
+<ol>
+<li><a href="/">Home</a>: 102,023 (43.69%) <small class="negative">⬇3.17%</small></li>
+<li><a href="/polyfills">Polyfills</a>: 27,444 (11.75%) <small class="positive">⬆5.68%</small></li>
+<li><a href="/articles/introduction-to-html-imports">Introduction to HTML Imports</a>: 11,606 (4.97%) <small class="negative">⬇40.28%</small></li>
+<li><a href="/articles">Articles</a>: 11,271 (4.83%) <small class="negative">⬇4.61%</small></li>
+<li><a href="/presentations">Presentations</a>: 8,780 (3.76%) <small class="negative">⬇12.71%</small></li>
+</ol>
+<p>That <em>HTML Imports</em> article was featured in the homepage for a long time, that&#39;s why it had so many visits (besides being a great article of course). This huge decrease of visits is expected as we rotate featured articles.</p>
+<p>For the next quarter, we&#39;ll try to add more articles and presentations. Those sections are crucial and we can&#39;t let them inactive.</p>
+<h3 id="which-external-links-did-they-click-">Which external links did they click?</h3>
+<ol>
+<li><a href="http://customelements.io/">CustomElements.io</a>: 6,210 (19.86%) <small class="positive">⬆15.53%</small></li>
+<li><a href="http://builtwithpolymer.org/">Built with Polymer</a>: 3,961 (12.67%) <small class="negative">⬇0.20%</small></li>
+<li><a href="http://www.polymer-project.org/">Polymer</a>: 3,828 (12.24%) <small class="negative">⬇0.18%</small></li>
+<li><a href="http://component.kitchen/">Component Kitchen</a>: 3,283 (10.50%) <small class="negative">⬇3.87%</small></li>
+<li><a href="http://w3c.github.io/webcomponents/spec/custom/">Custom Elements Spec</a>: 2,992 (9.57%) <small class="negative">⬇28.54%</small></li>
+</ol>
+<p>The <em>Specs</em> card used to be located in the top of the page, whereas the <em>Discover</em> card used to be located in the bottom. We noticed that most of the clicks were coming from this card in the bottom, so we switched them. That&#39;s why there&#39;s an increase of clicks for <em>CustomElements.io</em> and a decrease for the <em>Custom Elements Spec</em> link.</p>
+<p>The homepage is a hub to other pages, we&#39;ll continue monitoring that kind of behavior and changing card positions based on what users like the most.</p>
+<h2 id="github">GitHub</h2>
+<h3 id="how-many-commits-we-pushed-">How many commits we pushed?</h3>
+<ul>
+<li>50 commits <small class="negative">⬇59.67%</small></li>
+</ul>
+<p>We had a tremendous decrease of commits compared to the last quarter. There are many reasons for that but I would like to highlight one which is our current stack. We use <a href="https://github.com/docpad/docpad/">DocPad</a>, a static generator in Node which is not as maintained as it used to be in the past. It is slowing us down and discouraging contributions.</p>
+<p>Our goal is to move to a different Node static generator and we would love to hear your suggestions.</p>
+<h3 id="who-pushed-those-commits-">Who pushed those commits?</h3>
+<ol>
+<li><a href="https://github.com/Nevraeka">Erik Isaksen</a>: 22 <small class="negative">⬇53.19%</small></li>
+<li><a href="https://github.com/zenorocha">Zeno Rocha</a>: 20 <small class="negative">⬇68.25%</small></li>
+<li><a href="https://github.com/mateusortiz">Matheus Ortiz</a>: 7 <small class="positive">⬆40%</small></li>
+<li><a href="https://github.com/PascalPrecht">Pascal Precht</a>: 1 <small class="positive">⬆100%</small></li>
+</ol>
+<p>Some personal reasons led me to stepping away from GitHub a little bit in the past months. But the good news is that now I&#39;m back and there&#39;s a new top contributor around: Erik Isaksen! What I can tell is that this guy has been tireless and extremely helpful.</p>
+<p>For next quarter, I would like to get rid of that <em>Community</em> card in the homepage. Instead, I would like to highlight these new faces that are keeping this project active.</p>
+<h2 id="twitter">Twitter</h2>
+<h3 id="how-many-tweets-were-published-">How many tweets were published?</h3>
+<ul>
+<li>29 tweets <small class="positive">⬆3.57%</small></li>
+</ul>
+<p>We published just one tweet more than we did last quarter.</p>
+<p>That&#39;s a comfortable number since we try not to pollute our follower&#39;s streams so much.</p>
+<h3 id="how-people-interacted-with-those-tweets-">How people interacted with those tweets?</h3>
+<ul>
+<li>484 retweets <small class="positive">⬆97.55%</small></li>
+<li>595 favorites <small class="positive">⬆49.87%</small></li>
+<li>3,200 link clicks <small class="positive">⬆88.23%</small></li>
+<li>141,000 impressions <small class="positive">⬆37.69%</small></li>
+</ul>
+<p>What is impressive though, is that even with the same amount of tweets, we had a HUGE increase of engagement.</p>
+<p>It&#39;s going to be a hard task to maintain those numbers but nothing in life is easy, right?</p>
+<h3 id="which-were-the-most-popular-tweets-">Which were the most popular tweets?</h3>
+<blockquote class="twitter-tweet" lang="en">The new Google Music is now made with <a href="https://twitter.com/polymer">@polymer</a> <a href="https://t.co/3g7QRtJh87">https://t.co/3g7QRtJh87</a> &mdash; Web Components (@Web_Components) <a href="https://twitter.com/Web_Components/status/599254580531101696">May 15, 2015</a></blockquote>
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="en">Polymer reaches 1.0 and it&#39;s now production ready <a href="https://t.co/CoK12owzpS">https://t.co/CoK12owzpS</a> <a href="http://t.co/xXxKKhu3dW">pic.twitter.com/xXxKKhu3dW</a> &mdash; Web Components (@Web_Components) <a href="https://twitter.com/Web_Components/status/603992212930576384">May 28, 2015</a></blockquote>
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="en">&quot;Why Web Components?&quot;&#10;&#10;New article by <a href="https://twitter.com/zenorocha">@zenorocha</a> &amp; <a href="https://twitter.com/addyosmani">@addyosmani</a>.&#10;&#10;<a href="http://t.co/HdEEVodgfh">http://t.co/HdEEVodgfh</a> <a href="http://t.co/TZmfhdbSCR">pic.twitter.com/TZmfhdbSCR</a> &mdash; Web Components (@Web_Components) <a href="https://twitter.com/Web_Components/status/592726571661828096">April 27, 2015</a></blockquote>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="want-more-">Want more?</h2>
+<p>Is there any other metric that you would like to see here? Leave a comment!</p>
+<p>See you next quarter with more stats :)</p>
+]]></description>
+            <link>http://webcomponents.org/articles/end-of-second-quarter-2015</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/end-of-second-quarter-2015</guid>
+            <pubDate>Thu, 16 Jul 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft Edge and Web Components]]></title>
+            <description><![CDATA[<p>Yesterday, we shared <a href="http://blogs.windows.com/msedgedev/2015/07/14/bringing-componentization-to-the-web-an-overview-of-web-components/">our thoughts on the promise of Web Components</a>. In this post, we’ll answer a couple of recurring questions we get about the technology, including our implementation roadmap and how we currently think about its priority in regards to other related platform work. We’re excited about the potential of these technologies, and today we’re excited to announce that we’re <a href="http://dev.modern.ie/platform/status/templateelement">beginning development on the HTML Template element</a>, one of the core Web Components technologies and the <a href="https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6261273-template-element">#3 UserVoice request</a> from developers.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/microsoft-edge-and-web-components</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/microsoft-edge-and-web-components</guid>
+            <pubDate>Wed, 15 Jul 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bringing componentization to the web: An overview of Web Components]]></title>
+            <description><![CDATA[<p>Four of our five most-requested platform features on UserVoice (Shadow DOM, Template, Custom Elements, HTML Imports) belong to the family of features called Web Components. In this post we’ll talk about Web Components and give our viewpoint, some background for those who may not be intimately familiar with them, and speculate a bit about where we might expect them to evolve in the future. To do it justice requires a bit of length, so sit back, grab a coffee (or non-caffeinated beverage) and read-on. In part two (coming tomorrow), we’ll address questions about our roadmap and plans for implementation.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/bringing-componentization-to-the-web-an-overview-of-web-components</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/bringing-componentization-to-the-web-an-overview-of-web-components</guid>
+            <pubDate>Wed, 15 Jul 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[</Q1-2015>]]></title>
+            <description><![CDATA[<p>WebComponents.org is a community project. We truly believe that in order for something to be fully embraced by the community, it needs to be transparent. Starting from now, we&#39;re going to share statistics that are often not publicized by other open source projects.</p>
+<!-- Excerpt -->
+<p>Hopefully, those numbers will help you understand where we are and where are we going. More than that, it can give you some insights on how we can make this better together.</p>
+<p>Today, we&#39;re going to measure what happened from <em>January 1, 2015</em> to <em>March 31, 2015</em> across few different spectrums.</p>
+<h2 id="site">Site</h2>
+<p>The site is probably the heart of this organization, it&#39;s our hub to distribute content. We use same old Google Analytics with some <a href="https://github.com/webcomponents/webcomponents.github.io/blob/site/src/partials/card-links.html.eco#L7">custom events</a> being tracked. Also, we record sessions and obtain heatmaps using <a href="http://www.inspectlet.com/">Inspectlet</a>.</p>
+<h3 id="how-many-people-accessed-this-">How many people accessed this?</h3>
+<ul>
+<li>Users: 89,966</li>
+<li>Sessions: 133,206</li>
+<li>Pageviews: 239,145</li>
+</ul>
+<h3 id="where-did-they-visited-from-">Where did they visited from?</h3>
+<ol>
+<li>United States: 35,603 (26.79%)</li>
+<li>United Kingdom: 7,435 (5.58%)</li>
+<li>Germany: 7,004 (5.26%)</li>
+<li>India: 5,834 (4.38%)</li>
+<li>France: 5,388 (4.04%)</li>
+</ol>
+<h3 id="what-did-they-like-to-see-">What did they like to see?</h3>
+<ol>
+<li><a href="/">Home</a>: 105,363 (44.06%)</li>
+<li><a href="/polyfills">Polyfills</a>: 25,970 (10.86%)</li>
+<li><a href="/articles/introduction-to-html-imports">Introduction to HTML Imports</a>: 19,435 (8.13%)</li>
+<li><a href="/articles">Articles</a>: 11,816 (4.94%)</li>
+<li><a href="/presentations">Presentations</a>: 10,058 (4.21%)</li>
+</ol>
+<h3 id="which-external-links-did-they-click-">Which external links did they click?</h3>
+<ol>
+<li><a href="http://customelements.io/">CustomElements.io</a>: 5,375 (16.85%)</li>
+<li><a href="http://w3c.github.io/webcomponents/spec/custom/">Custom Elements Spec</a>: 4,187 (13.13%)</li>
+<li><a href="http://builtwithpolymer.org/">Built with Polymer</a>: 3,969 (12.45%)</li>
+<li><a href="http://www.polymer-project.org/">Polymer</a>: 3,835 (12.03%)</li>
+<li><a href="http://component.kitchen/">Component Kitchen</a>: 3,415 (10.71%)</li>
+</ol>
+<h2 id="github">GitHub</h2>
+<p>Since the beginning, we use <a href="https://pages.github.com/">GitHub Pages</a> to host this site. It has been serving us tremendously good for many reasons, including <a href="https://github.com/webcomponents/webcomponents.github.io/graphs/contributors?from=2015-01-01&amp;to=2015-03-31">stats</a>.</p>
+<h3 id="how-many-commits-we-pushed-">How many commits we pushed?</h3>
+<ul>
+<li>124 commits</li>
+</ul>
+<h3 id="who-pushed-those-commits-">Who pushed those commits?</h3>
+<ol>
+<li><a href="https://github.com/zenorocha">Zeno Rocha</a>: 63</li>
+<li><a href="https://github.com/Nevraeka">Erik Isaksen</a>: 47</li>
+<li><a href="https://github.com/mateusortiz">Mateus Ortiz</a>: 5</li>
+<li><a href="https://github.com/obetomuniz">Beto Muniz</a>: 5</li>
+<li><a href="https://github.com/tjsavage">Taylor Savage</a>: 2</li>
+</ol>
+<h2 id="twitter">Twitter</h2>
+<p>We have a Twitter account <a href="https://twitter.com/web_components/">@Web_Components</a> to share news and stuff. Thanks to <a href="https://analytics.twitter.com">analytics.twitter.com</a> we&#39;re able to track pretty nice numbers.</p>
+<h3 id="how-many-tweets-were-published-">How many tweets were published?</h3>
+<ul>
+<li>28 tweets</li>
+</ul>
+<h3 id="how-people-interacted-with-those-tweets-">How people interacted with those tweets?</h3>
+<ul>
+<li>245 retweets</li>
+<li>397 favorites</li>
+<li>1,700 link clicks</li>
+<li>102,400 impressions</li>
+</ul>
+<h3 id="which-were-the-most-popular-tweets-">Which were the most popular tweets?</h3>
+<blockquote class="twitter-tweet" data-cards="hidden" lang="en">The 1st edition of Developing Web Components book by <a href="https://twitter.com/jsoverson">@jsoverson</a> &amp; <a href="https://twitter.com/StrimpelJason">@StrimpelJason</a> is out!&#10;&#10;<a href="http://t.co/jitVZPaqvK">http://t.co/jitVZPaqvK</a> <a href="http://t.co/AasJdR4KcD">pic.twitter.com/AasJdR4KcD</a>&mdash; Web Components (@Web_Components) <a href="https://twitter.com/Web_Components/status/573190684620038146">March 4, 2015</a></blockquote>
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="en">🔭 New talk!&#10;&#10;An Introduction to Web Components by <a href="https://twitter.com/supersole">@supersole</a> from Mozilla&#10;&#10;<a href="http://t.co/Ao8RQqzvEQ">http://t.co/Ao8RQqzvEQ</a>&mdash; Web Components (@Web_Components) <a href="https://twitter.com/Web_Components/status/566280445609132033">February 13, 2015</a></blockquote>
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="en">We just launched the new Podcast page featuring 12 episodes!&#10;&#10;🎧 <a href="http://t.co/mtsM9XxF23">http://t.co/mtsM9XxF23</a> 🎧&#10;&#10;Thanks to <a href="https://twitter.com/eisaksen">@eisaksen</a> ;D <a href="http://t.co/QV3EIZizd6">pic.twitter.com/QV3EIZizd6</a>&mdash; Web Components (@Web_Components) <a href="https://twitter.com/Web_Components/status/572841601988485121">March 3, 2015</a></blockquote>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="want-more-">Want more?</h2>
+<p>Is there any other metric that you would like to see here? Leave a comment!</p>
+<p>On the next publication we&#39;ll compare how Q2 was better or worse than Q1.</p>
+]]></description>
+            <link>http://webcomponents.org/articles/end-of-first-quarter-2015</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/end-of-first-quarter-2015</guid>
+            <pubDate>Tue, 14 Jul 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Web Components and Microsoft Edge]]></title>
+            <description><![CDATA[<p>Our <a href="/tags/interview">interview series</a> continues with Microsoft Software Engineer &amp; Internet Maker
+<a href="https://www.twitter.com/TravisLeithead">Travis Leithead</a>, who is currently focused on DOM architecture
+improvements and paving the path for Web Components in Microsoft&#39;s <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">Edge Browser</a>.</p>
+<!-- Excerpt -->
+<p>Listen to the full 38 minute audio interview.</p>
+<audio controls>
+      <source src="/media/interviews/interview-session-1_travis-leithead-07082015.mp3" type="audio/mpeg">
+      <source src="/media/interviews/interview-session-1_travis-leithead-07082015.ogg" type="audio/ogg">
+      <a href="/media/interviews/interview-session-1_travis-leithead-07082015.mp3">download audio</a>
+</audio>
+
+<h3 id="what-is-your-background-what-is-the-work-you-do-at-microsoft-">What is your background &amp; what is the work you do at Microsoft?</h3>
+<p>I guess I&#39;ll start on my background. I got started in web development as a kid. This was back when I got a book that told
+how to do web programming in Netscape versus Internet Explorer 4. I would tinker, learn, play, and copy code from
+the limited number of websites that were out there and that&#39;s kinda how I got my start.</p>
+<p>Then I fell in love with C++ and went off to school and did a bunch of graduate work in the realms of Computer Security.
+I figured I&#39;d go and work for the NSA after college but a friend told me I should put in my application to Microsoft. I
+already had done that but sure enough I got an interview. I was hired onto this team called &quot;Internet Explorer&quot; that I&#39;d
+heard about before; I was a pretty staunch Firefox user back then.</p>
+<h3 id="how-did-you-get-involved-with-web-components-and-what-does-it-mean-at-microsoft-to-be-involved-with-web-components-">How did you get involved with Web Components and what does it mean at Microsoft to be involved with Web Components?</h3>
+<p>I think it all started back in 2008 or 2009. A former co-worker of mine named <a href="https://www.linkedin.com/pub/tony-ross/8b/882/51">Tony Ross</a> and I were invited to a call with
+Google. I think <a href="https://plus.google.com/111386188573471152118/">Raphael Weinstein</a> and maybe <a href="https://plus.google.com/+DimitriGlazkov/">Dimitri Glazkov</a> were involved at that point but I can&#39;t recall. They wanted to talk
+to us about data binding. They knew we had a data binding system with HTML tables and they wanted to pick our brains
+on what a good system would be. We sat down and talked about it and our point of view was &quot;Oh my goodness! Don&#39;t go there right now!&quot;.
+This is fraught with dragons. You&#39;re going to pick an approach and it&#39;s going to be wrong. Maybe think about decomposing
+that problem a little bit.</p>
+<p>The next time we heard from them (maybe it was a year or two later), they had started down
+<a href="http://www.w3.org/wiki/WebComponents/">the current direction</a> of separate specs and this vision sort of the way you start to see it formed now with Shadow DOM,
+Custom Elements, templates and all that. And so I&#39;ve been involved from the periphery since those early days and then got
+more involved as we helped Raphael with the template spec. Tony Ross was one of the editors before Templates got integrated
+with HTML.</p>
+<p>As for Microsoft being involved in Web Components, it means you get a lot a questions from the community. :-) Seriously though, it&#39;s been a
+challenge because we haven&#39;t been able to really commit development resources to playing in the space. That&#39;s really
+where the good quality feedback comes from. For me, being involved is usually grabbing time here or there between projects
+with developers, coordinating on testing approaches, and figuring out what sounds sensible.</p>
+<p>I also try to stay on the top of the flood of email from the different mailing lists on the different specs in the working group.
+It&#39;s a pretty big time commitment but it is kind of fun and really interesting to see what&#39;s being developed with Web Components.
+At times it can be frustrating that I can&#39;t say that &quot;we have support for it&quot; or anything like that yet.</p>
+<h3 id="microsoft-has-done-a-great-deal-of-collaboration-and-interactive-work-with-other-browser-vendors-can-you-talk-to-us-about-the-w3c-web-apps-face-to-face-meetings-you-ve-been-having-to-finalize-the-specs-how-have-they-gone-how-can-developers-keep-updated-on-the-outcomes-of-these-meetings-">Microsoft has done a great deal of collaboration and interactive work with other browser vendors. Can you talk to us about the W3C Web Apps face-to-face meetings you&#39;ve been having to finalize the specs? How have they gone? How can developers keep updated on the outcomes of these meetings?</h3>
+<p>Dimitri had been championing Web Components at various meetings of the Web Apps working group faces-to-face meetings for some time now.
+He&#39;d schedule some time at the meetings to talk about Web Components and in the early meetings he&#39;d hear from Mozilla
+&amp; Apple &quot;Eh&quot;, &quot;Interesting&quot;, or &quot;I don&#39;t like that approach&quot; and I think it was very frustrating for him. When originally planning the 2015 Spring
+meeting scheduled for the entire Web Apps working group, the organizers didn&#39;t have enough material to get everyone together for a
+couple of days. That&#39;s when they decided to do specific topical break out sessions. The first one was meant to solely focus on Web Components.
+Then Dimitri organized and said &quot;listen...the spec with the most disagreement on various issues is Shadow DOM&quot;. Then he
+wrote <a href="https://github.com/w3c/webcomponents/wiki/Shadow-DOM:-Contentious-Bits">a document summarizing the contentious bits of Shadow DOM</a>. In the document, he talked about multiple Shadow Roots &amp; Hosts.
+He talked about the Shadow Root Piercing Combinator, and a bunch of other issues in Shadow DOM that were disputed. He got us all
+together; we didn&#39;t just have browser vendors in there, but we had library &amp; framework representatives from
+Polymer, React, and Angular who contributed to the conversations. My take away: the experience was fantastic. I
+think having that focused effort on Web Components really accelerated the pace at which we were able to resolve
+a lot of issues. In many cases, there wasn&#39;t that much disagreement. It was great to get
+everyone on the same page. Once we got everyone to understand, the hang-ups and disagreements were really trivial to
+resolve. In the first half-hour (or hour) at the last Shadow DOM meeting we had resolved 4 of the 5 major
+issues. After dinner we came back with a tentative resolution for the remaining issue. It was just phenomenal. Everyone
+was feeling really good about it.</p>
+<p>The next meeting is on July 21st, 2015 in Mountain View California at Google&#39;s Headquarters. It&#39;s the same venue as the last
+meeting except this time we are going in and looking at Custom Elements. The big topics, at least in my point of view,
+are the timing issue of when you do upgrades to a Custom Element, the &quot;is&quot; syntax, and subclassing.</p>
+<h3 id="we-talked-a-little-about-shadow-dom-custom-elements-but-what-about-templates-html-imports-html-imports-are-pretty-contentious-is-that-saved-for-last-">We talked a little about Shadow DOM &amp; Custom Elements but what about Templates &amp; HTML Imports. HTML Imports are pretty contentious. Is that saved for last?</h3>
+<p>I think that&#39;s a safe bet for HTML Imports. Most of the issues have been resolved for Templates. In fact I don&#39;t know that anyone has any
+beef with what&#39;s been integrated into the spec so far - including us. We&#39;re good. We are trying to find a way to get that
+implemented. As for imports, I&#39;m undecided on whether I like it or not. Part of me says it doesn&#39;t add enough unique value
+aside from this dependency resolution model that&#39;s built into it. It&#39;s really easy to polyfill otherwise. There is also
+the deal with the EcmaScript Harmony proposal for Module Loader and trying to rationalize what the difference is between
+the module Loader and HTML Imports: what I think is that HTML Imports should rely on the Module Loader&#39;s algorithms for
+doing dependency resolution and since Imports were implemented first before the Module Loader I think Mozilla &amp; Microsoft are a little hesitant
+to jump on board with that until some of the details of that Module Loader algorithms are worked out.</p>
+<h3 id="with-all-of-the-major-specs-in-the-top-10-of-edge-s-user-voice-poll-what-are-your-feelings-on-when-any-of-them-will-make-it-into-the-edge-browser-">With all of the major specs in the top 10 of Edge’s User Voice poll, what are your feelings on when any of them will make it into the Edge Browser?</h3>
+<p>Yeah...It&#39;s actually the top 5. :-) Numbers two through five are the Web Component specs and the first one is about updating our browser so
+that everyone is using the most modern version. I can&#39;t really say exactly when these will be implemented, but Template is our first
+priority from a polyfill standpoint. Template is one of the more challenging to polyfill and one of the more core pieces of Web Components.
+Then after that will be Shadow DOM. That&#39;s probably the second hardest to polyfill. Then we&#39;ll likely do Custom Elements at the same
+time or shortly thereafter. Then finally Imports after that. That&#39;s my plan for at least those four specs and CSS Variables (a.k.a., Custom Properties) will
+likely get implemented somewhere in between as well.</p>
+<p>If we are talking goals and not hard dates, I think I would be comfortable saying that we may have full Web Component support
+in Edge by the end of next year. By the time we get them in Edge you&#39;ll likely see Web Components everywhere. :-)</p>
+<h2 id="credits">Credits</h2>
+<ul>
+<li>Questions by <a href="https://twitter.com/eisaksen">Erik Isaksen</a> and <a href="https://twitter.com/goldoraf">Raphaël Rougeron</a>.</li>
+<li>Image &amp; audio by <a href="https://twitter.com/eisaksen">Erik Isaksen</a></li>
+</ul>
+]]></description>
+            <link>http://webcomponents.org/articles/interview-with-travis-leithead</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/interview-with-travis-leithead</guid>
+            <pubDate>Mon, 13 Jul 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why Web Components will make the web a better place for our users]]></title>
+            <description><![CDATA[<p>I attended Edge conference in Facebook’s London office. Edge is a formidable discussion forum between developers, browser vendors, and standards makers.</p>
+<p>On the components panel, we discussed the challenges posed by Web Components such as performance and module loading. It was a fascinating conversation, but I felt that one party was missing from that discussion: what about our users? How will they benefit from Web Components?</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/why-web-components-will-make-the-web-a-better-place-for-our-users</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/why-web-components-will-make-the-web-a-better-place-for-our-users</guid>
+            <pubDate>Fri, 10 Jul 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What kind of Web Components do we need?]]></title>
+            <description><![CDATA[<p>The idea of Web Components and specifically their custom elements, is that you no longer depend on the browser to provide you with elements: you can bring your own. Many blog posts about the subject emphasise how exciting this is. Yes, this is exciting new tech. It gives website owners lots of freedom, but also a big responsibility. I think Web Components have their use case for the web at large, but I can’t help but feeling that for many websites, it will be too costly to create and unnecessary to use custom elements.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/what-kind-of-web-components-do-we-need</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/what-kind-of-web-components-do-we-need</guid>
+            <pubDate>Mon, 06 Jul 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Over the Edge: Web Components are an endangered species]]></title>
+            <description><![CDATA[<p>Last week I ran the panel and the Web Components/Modules breakout session of the excellent Edge Conference in London, England and I think I did quite a terrible job. The reason was that the topic is too large and too fragmented and broken to be taken on as a bundle.</p>
+<p>Web Components are a great idea. Modules are a great idea. Together, they bring us hours and hours of fun debating where what should be done to create a well-performing, easy to maintain and all around extensible complex app for the web.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/over-the-edge-web-components-are-an-endangered-species</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/over-the-edge-web-components-are-an-endangered-species</guid>
+            <pubDate>Fri, 03 Jul 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[iOS Application with Polymer 1.0]]></title>
+            <description><![CDATA[<p>In this article, we will go through the steps to create first Polymer 1.0 iOS application using Polymer Starter Kit. This shall help us create applications in Polymer and package them as iOS application, which can be installed and run on iOS devices, such as, iPhone, iPad, etc.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/ios-application-with-polymer-1-0</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/ios-application-with-polymer-1-0</guid>
+            <pubDate>Fri, 03 Jul 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Setting up your Production-ready Polymer 1.0 Application Development]]></title>
+            <description><![CDATA[<p>Any technology we choose to build our project, it is very important that our project lifecycle is managed with effective set of tools that make our overall project development efficient. Depending upon the technology, it may take a while, initially, to set it up but once it is in place, the benefit of it cannot be undermined. Besides, it gives you the much needed agility when it comes to releasing quality code, frequently.</p>
+<p>In this article, we are going to run through the different stages of a project life-cycle for a Polymer 1.0 project and talk about the related tools that can help you run the project, efficiently.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/setting-up-your-production-ready-polymer-1-0-application-development</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/setting-up-your-production-ready-polymer-1-0-application-development</guid>
+            <pubDate>Wed, 01 Jul 2015 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
