@@ -8,7 +8,7 @@ The WebComponents.org Resources is a place to introduce useful tools and boilerp
 
 ## 1. Learn
 
-Web Components is a set of specs that introduce a lot of new stuff. So, before creating anything, first you need to understand what is this all about. That's why we selected the best [Articles](/articles/) and [Presentations](/articles/) for you. More than that, we recommend you to read:
+Web Components is a set of specs that introduce a lot of new stuff. So, before creating anything, first you need to understand what is this all about. That's why we selected the best [Articles](/articles/) and [Presentations](/presentations/) for you. More than that, we recommend you to read:
 
 * [Component Kitchen's interactive tutorial](http://component.kitchen/tutorial);
 * [Eric's article on how to create Custom Elements using VanillaJS](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/);
